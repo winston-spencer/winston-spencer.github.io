@@ -1,0 +1,11 @@
+title: Winston Spencer Portfolio
+email: winston.spencer@ndsu.edu
+description: >- # this means to ignore newlines until "."
+  Welcome to my digital playground, where I share my latest projects, ideas, and experiments.
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages compatibility
+markdown: kramdown
