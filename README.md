@@ -1,11 +1,12 @@
-
-# Winston Spencer Portfolio
+---
+layout: home
+title: Winston Spencer Portfolio
+---
 
 Welcome to my digital playground, where I share my latest projects, ideas, and experiments.
 
 ## About Me
 Leader, innovator, and lifelong learner.
-
 
 ## Projects
 - **Recursive Hierarchical LLM Architecture:** A Framework for Scalable Task-Specific Language Model Organization. This project explores advanced architectures for large language models that utilize recursive and hierarchical structures to improve reasoning, scalability, and task specialization.
@@ -17,11 +18,11 @@ Leader, innovator, and lifelong learner.
 - **Frameworks & Tools:** Node.js · K3S · Hugging Face Transformers
 - **Infrastructure:** Linux · Milvus · Tuya Smart · Home Assistant
 
-
 ## Contact
 - [LinkedIn](https://www.linkedin.com/in/winston-spencer)
 - [Instagram](https://www.instagram.com/dr_winston_spencer)
-- Email: winston.spencer@ndsu.edu
+- [GitHub](https://github.com/winston-spencer)
+- [Email](mailto:winston.spencer@ndsu.edu)
 
 ---
 Feel free to explore my projects and reach out if you'd like to collaborate!
