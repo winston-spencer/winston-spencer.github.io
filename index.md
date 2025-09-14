@@ -21,6 +21,7 @@ Leader, innovator, and lifelong learner.
 ## Contact
 - [LinkedIn](https://www.linkedin.com/in/winston-spencer)
 - [Instagram](https://www.instagram.com/dr_winston_spencer)
+- [GitHub](https://github.com/winston-spencer)
 - [Email](mailto:winston.spencer@ndsu.edu)
 
 ---
