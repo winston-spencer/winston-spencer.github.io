@@ -9,7 +9,7 @@ _site/
 vendor/
 
 # Gemfile.lock (uncomment if you want to track it)
-# Gemfile.lock
+Gemfile.lock
 
 # Ruby
 *.gem
