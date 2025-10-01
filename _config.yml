@@ -1,25 +1,26 @@
-title: Winston Spencer Portfolio
+title: Winston Spencer
 email: winston.spencer@ndsu.edu
-description: >- # this means to ignore newlines until "."
-  Welcome to my digital playground, where I share my latest projects, ideas, and experiments.
-tagline: Developer & Creative Thinker
-
-# Social media usernames (without @ or full URLs)
-github_username: winston-spencer
-linkedin_username: winston-spencer
-# twitter_username: your_twitter
+description: Developer focused on ML, distributed systems, and cloud solutions.
+url: "https://winston-spencer.github.io"
+baseurl: ""
 
 # Build settings
+markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# GitHub Pages compatibility
-markdown: kramdown
-highlighter: rouge
+# Social links
+github_username: winston-spencer
+linkedin_username: winston-spencer
 
-# Permalink structure
+# Exclude from processing
+exclude:
+  - Gemfile
+  - README.md
+  - Gemfile.lock
+  - Gemfile.lock
+  - README.md
 permalink: /:categories/:year/:month/:day/:title/
 
 # Pagination

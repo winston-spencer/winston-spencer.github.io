@@ -1,43 +1,26 @@
 ---
-layout: page
-title: About Me
-subtitle: Developer, Creative Thinker, Problem Solver
+layout: default
+title: About
 ---
 
-## Hello, I'm Winston Spencer
+# About Me
 
-I'm a passionate developer and creative thinker with a love for building innovative solutions and exploring new technologies. My journey in the world of programming has been driven by curiosity and a desire to create meaningful digital experiences.
+I'm Winston Spencer, a developer who enjoys creating innovative solutions to complex problems, particularly in the areas of machine learning, distributed systems, and cloud infrastructure.
 
-### What I Do
+## What I Do
 
-- **Web Development**: Creating responsive, user-friendly websites and applications
-- **Software Engineering**: Building robust, scalable software solutions
-- **Creative Problem Solving**: Approaching challenges with innovative thinking
-- **Continuous Learning**: Always exploring new technologies and methodologies
+I work on cutting-edge projects involving large language models, resource optimization, and home automation systems. My focus is on building scalable, efficient solutions that solve real-world problems.
 
-### My Approach
+## Skills
 
-I believe in the power of clean, maintainable code and user-centered design. Every project is an opportunity to learn something new and create something meaningful. I'm passionate about:
+**Languages:** Kotlin, Python, JavaScript  
+**Frameworks & Tools:** Node.js · K3S · Hugging Face Transformers  
+**Infrastructure:** Linux · Milvus · Tuya Smart · Home Assistant
 
-- Writing clean, efficient code
-- Creating intuitive user experiences
-- Collaborating with diverse teams
-- Contributing to open-source projects
+## Current Focus
 
-### Skills & Technologies
-
-- **Languages**: JavaScript, Python, HTML, CSS, and more
-- **Frameworks**: React, Jekyll, Node.js
-- **Tools**: Git, VS Code, various databases
-- **Design**: UI/UX principles, responsive design
-
-### Let's Connect
-
-I'm always interested in discussing new projects, sharing ideas, or collaborating on interesting challenges. Feel free to reach out!
-
-<div class="contact-buttons">
-  <a href="mailto:{{ site.email }}" class="btn">Send me an email</a>
-  {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}" class="btn btn-outline" target="_blank" rel="noopener">View my GitHub</a>
-  {% endif %}
-</div>
+I'm particularly interested in:
+- Hierarchical architectures for language models
+- Resource allocation optimization algorithms  
+- Home cloud and IoT integration
+- Distributed systems and container orchestration
