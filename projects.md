@@ -1,57 +1,29 @@
 ---
-layout: page
-title: My Projects
-subtitle: A showcase of my work and creative endeavors
+layout: default
+title: Projects
 ---
 
-Welcome to my project portfolio! Here you'll find a collection of my work, ranging from web development projects to creative experiments. Each project represents a learning journey and an opportunity to explore new technologies and ideas.
+# Projects
 
-## Featured Projects
+Here are some of the projects I'm currently working on.
 
-<div class="projects-grid">
-  {% for project in site.projects limit:6 %}
-    <div class="card project-card">
-      {% if project.image %}
-        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
-      {% endif %}
-      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-      <p>{{ project.description | truncate: 120 }}</p>
-      
-      {% if project.technologies %}
-        <div class="project-tech">
-          {% for tech in project.technologies %}
-            <span class="tech-tag">{{ tech }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
-      
-      <div class="project-links">
-        <a href="{{ project.url | relative_url }}" class="btn btn-outline">Learn More</a>
-        {% if project.github_url %}
-          <a href="{{ project.github_url }}" class="btn" target="_blank" rel="noopener">View Code</a>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
-</div>
+## Current Projects
 
-{% if site.projects.size == 0 %}
 <div class="card">
-  <h3>Coming Soon</h3>
-  <p>I'm currently working on some exciting projects that will be showcased here soon. Check back later to see what I've been building!</p>
+  <h3>Recursive Hierarchical LLM Architecture</h3>
+  <p>A Framework for Scalable Task-Specific Language Model Organization. This project explores advanced architectures for large language models that utilize recursive and hierarchical structures to improve reasoning, scalability, and task specialization.</p>
 </div>
-{% endif %}
 
-## Project Categories
+<div class="card">
+  <h3>Resource Allocation Optimization</h3>
+  <p>A project dedicated to solving complex resource allocation problems using modern algorithms and computational techniques. This includes optimizing the distribution of limited resources across tasks, projects, or systems to maximize efficiency and effectiveness.</p>
+</div>
 
-- **Web Applications**: Full-stack web applications built with modern frameworks
-- **Open Source**: Contributions to open-source projects and community tools
-- **Experiments**: Creative coding experiments and proof-of-concepts
-- **Client Work**: Selected client projects (where permission allows)
+<div class="card">
+  <h3>Home Cloud Solution</h3>
+  <p>Integrating file sharing, media streaming, remote access, and IoT device management into a unified home cloud platform. This project focuses on building a secure, flexible, and user-friendly personal cloud using open-source tools and custom hardware.</p>
+</div>
 
-## Want to Collaborate?
-
-I'm always open to collaborating on interesting projects. If you have an idea you'd like to explore together, or if you'd like to contribute to any of my open-source projects, please [get in touch](/contact/)!
 
 <style>
 .projects-grid {

@@ -1,13 +1,14 @@
-# Winston Spencer Portfolio
+# Winston Spencer - Personal Website
 
-A modern, responsive Jekyll portfolio website template with dark mode support and clean design.
+A clean, simple portfolio website built with Jekyll.
 
-## 🚀 Features
+## Features
 
-- **Responsive Design**: Mobile-first approach that works on all devices
-- **Dark Mode**: Automatic theme switching with user preference detection
-- **SEO Optimized**: Built-in SEO tags and meta information
-- **Fast Loading**: Optimized CSS and JavaScript for performance
+- Clean, minimal design
+- Responsive layout
+- Simple navigation
+- Project showcase
+- Contact page
 - **Accessible**: Following WCAG guidelines for web accessibility
 - **GitHub Pages Ready**: Deploy directly to GitHub Pages
 
