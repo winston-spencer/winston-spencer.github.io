@@ -2,9 +2,62 @@ title: Winston Spencer Portfolio
 email: winston.spencer@ndsu.edu
 description: >- # this means to ignore newlines until "."
   Welcome to my digital playground, where I share my latest projects, ideas, and experiments.
+tagline: Developer & Creative Thinker
+
+# Social media usernames (without @ or full URLs)
+github_username: winston-spencer
+linkedin_username: winston-spencer
+# twitter_username: your_twitter
+
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # GitHub Pages compatibility
 markdown: kramdown
+highlighter: rouge
+
+# Permalink structure
+permalink: /:categories/:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      show_date: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
