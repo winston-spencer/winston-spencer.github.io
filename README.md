@@ -19,7 +19,7 @@ A modern, responsive Jekyll portfolio website template with dark mode support an
 - **JavaScript**: Vanilla JS for interactions
 - **Markdown**: Content creation
 
-## 📁 Project Structure
+## 📁 Project Structure Test
 
 ```
 ├── _layouts/           # HTML templates
