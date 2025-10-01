@@ -84,21 +84,6 @@ github_url: https://github.com/user/repo
 Project content goes here...
 ```
 
-### Writing Blog Posts
-Create new files in `_posts/` directory with the naming convention `YYYY-MM-DD-title.md`:
-
-```yaml
----
-layout: post
-title: "Your Post Title"
-date: 2025-09-30 10:00:00 -0600
-categories: [category1, category2]
-tags: [tag1, tag2]
----
-
-Post content goes here...
-```
-
 ## 🚀 Deployment
 
 ### GitHub Pages
