@@ -21,12 +21,6 @@ exclude:
   - Gemfile.lock
   - Gemfile.lock
   - README.md
-permalink: /:categories/:year/:month/:day/:title/
-
-# Pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
-
 # Collections
 collections:
   projects:
@@ -35,12 +29,6 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      show_date: true
   - scope:
       path: ""
       type: "pages"

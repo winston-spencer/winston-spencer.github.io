@@ -25,13 +25,7 @@ A clean, simple portfolio website built with Jekyll.
 ```
 ├── _layouts/           # HTML templates
 │   ├── default.html    # Base template
-│   ├── home.html       # Homepage layout
-│   ├── page.html       # Static pages
-│   └── post.html       # Blog posts
-├── _includes/          # Reusable components
-│   ├── header.html     # Site header
-│   └── footer.html     # Site footer
-├── _posts/             # Blog posts
+│   └── page.html       # Static pages
 ├── _projects/          # Project collection
 ├── assets/             # Static assets
 │   ├── css/
@@ -66,7 +60,7 @@ linkedin_username: yourusername
 ```
 
 ### Navigation
-Edit the navigation menu in `_includes/header.html`.
+Edit the navigation menu in `_layouts/default.html`.
 
 ## 📝 Content Management
 
