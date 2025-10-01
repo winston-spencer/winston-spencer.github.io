@@ -10,6 +10,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Permalink structure
+permalink: pretty
+
 # Social links
 github_username: winston-spencer
 linkedin_username: winston-spencer
@@ -33,7 +36,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
       type: "projects"
